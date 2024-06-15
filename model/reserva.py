@@ -3,3 +3,5 @@ class Reserva:
         self.day = day
         self.init_time = init_time
         self.time_over = time_over
+        self.idmorador = None
+        self.idreserva = None
