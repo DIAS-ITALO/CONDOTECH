@@ -1,7 +1,10 @@
 class Reserva:
-    def __init__(self, day, init_time, time_over):
-        self.day = day
-        self.init_time = init_time
-        self.time_over = time_over
-        self.idmorador = None
+    def __init__(self, diareserva, inicioreserva, fimreserva):
         self.idreserva = None
+        self.idmorador = None
+        self.idlocal = None 
+        self.diareserva = diareserva
+        self.inicioreserva = inicioreserva
+        self.fimreserva = fimreserva
+        
+        

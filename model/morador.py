@@ -1,12 +1,12 @@
 """ from reserva import Reserva """
 
 class Morador:
-    def __init__(self, idmorador, nome, cpf, email, senha, numero_telefone):
+    def __init__(self, idmorador, nomemorador, cpfmorador, emailmorador, senhamorador, telefonemorador):
         self.idmorador = idmorador
-        self.nome = nome
-        self.cpf = cpf
-        self.email = email
-        self.senha = senha
-        self.numero_telefone = numero_telefone
+        self.nomemorador = nomemorador
+        self.cpfmorador = cpfmorador
+        self.emailmorador = emailmorador
+        self.senhamorador = senhamorador
+        self.telefonemorador = telefonemorador
     
 

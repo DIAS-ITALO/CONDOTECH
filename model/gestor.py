@@ -1,10 +1,10 @@
 class Gestor:
-    def __init__(self, idgestor, nome, cpf, email, senha, numero_telefone):
+    def __init__(self, idgestor, nomegestor, cpfgestor, emailgestor, senhagestor, numerotelefonegestor):
         self.idgestor = idgestor
-        self.nome = nome
-        self.cpf = cpf
-        self.email = email
-        self.senha = senha
-        self.numero_telefone = numero_telefone
+        self.nomegestor = nomegestor
+        self.cpfgestor = cpfgestor
+        self.emailgestor = emailgestor
+        self.senhagestor = senhagestor
+        self.numerotelefonegestor = numerotelefonegestor
 
 #   def __cadastrar_local__ (self, idlocal, nomelocal, capacidadepessoas)
